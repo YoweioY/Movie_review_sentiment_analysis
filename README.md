@@ -1,1 +1,11 @@
-# Movie_review_sentiment_analysis
+# 電影評論情緒分析
+
+本專案嘗試不同機器學習與深度學習模型判斷電影評論的文字屬於正向情緒還是負向情緒，並比較與分析不同模型的結果。
+
+labeledTrainData_1w.tsv為經過前處理的資料。
+
+main.py為主要程式，建立LSTM、GRU、BiLSTM、BiGRU四種模型預測評論的正負向。
+
+utils.py為副程式，為主程式所需的函式庫。
+
+詳細內容與結果說明可參閱"電影評論分析報告"檔案。
